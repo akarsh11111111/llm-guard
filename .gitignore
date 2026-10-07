@@ -1,0 +1,26 @@
+/mlruns/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+dist/
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models
+*.pkl
+
+# Local tracking and audit data
+mlruns.db
+mlruns.db-*
+data/audit/
